@@ -47,4 +47,15 @@
   .cart button:hover {
     background-color: #226D68;
   }
-  
+  @media (max-width: 768px) {
+    .cart {
+      margin-top: 100px;
+      height: fit-content;
+      max-width: 200px;
+      top: auto;
+      bottom: 10px; /* Moins d'espace si nécessaire */
+      left: 10px; /* Moins d'espace si nécessaire */
+      font-size: 14px; /* Réduire la taille de la police si nécessaire */
+    }
+    
+  }
