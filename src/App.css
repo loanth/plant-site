@@ -25,3 +25,13 @@ body {
   overflow-y: auto;
   background-color: #ECF8F6;
 }
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   
+    overflow-y: auto;
+    background-color: #ECF8F6;
+  }
+}

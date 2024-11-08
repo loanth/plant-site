@@ -48,3 +48,14 @@
 .add-to-cart-button:hover {
   background-color: #18534F;
 }
+@media (max-width: 768px) {
+  .plant-catalog {
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    width: auto;
+    margin: 0 0;
+    padding: 0;
+  }
+  
+}
