@@ -1,0 +1,102 @@
+/* src/components/PlantDetail.css */
+.plant-detail {
+
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ECF8F6;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    height: fit-content;
+  }
+  
+  .plant-detail img {
+    width: 81%;
+    
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plant-detail h2 {
+    font-size: 1.8em;
+    color: #18534F;
+    margin-bottom: 10px;
+  }
+  
+  .plant-detail p {
+    color: #226D68;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .plant-detail .price {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #D6955B;
+    margin-bottom: 25px;
+  }
+  
+  .ratings {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+    
+  }
+  
+  .rating-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rating-item p {
+    
+    font-weight: 600;
+    color: #18534F;
+    margin-bottom: 5px;
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .stars i {
+    font-size: 24px;  /* Assure-toi que l'icône est suffisamment grande */
+    margin-right: 5px;  /* Espace entre les icônes */
+  }
+  
+  .stars .filled {
+    color: #D6955B; /* Change la couleur de l'icône quand elle est remplie */
+  }
+  
+  .stars i:hover {
+    transform: scale(1.2);
+    color: #226D68;
+  }
+  
+  .plant-detail button {
+    background-color: #FEEAA1;
+    color: #18534F;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .plant-detail button:hover {
+    background-color: #D6955B;
+    color: #ECF8F6;
+    transform: scale(1.05);
+  }

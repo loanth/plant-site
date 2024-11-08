@@ -1,0 +1,33 @@
+/* src/components/PlantCard.css */
+.plant-card {
+  background-color: #FEEAA1;
+  border: 1px solid #D6955B;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.plant-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.plant-card h3 {
+  color: #18534F;
+  margin-bottom: 8px;
+}
+
+.plant-card p {
+  color: #226D68;
+  font-weight: bold;
+}
