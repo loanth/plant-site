@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css';
+import { Link } from 'react-router-dom';
 
 const Cart = ({ cart, removeFromCart }) => {
   // Calcul du total du panier
@@ -40,6 +41,8 @@ const Cart = ({ cart, removeFromCart }) => {
           <div className="total">
             <h4>Total : {getTotalPrice()}€</h4>
           </div>
+          <br></br>
+          <a href={`https://card-process.netlify.app?total=${getTotalPrice()}`} >Payer</a>
         </>
       )}
     </div>
@@ -47,3 +50,4 @@ const Cart = ({ cart, removeFromCart }) => {
 };
 
 export default Cart;
+

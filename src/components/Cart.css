@@ -59,3 +59,17 @@
     }
     
   }
+  a{
+    background-color: #D6955B;
+    color: #ECF8F6;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: #226D68;
+  }
