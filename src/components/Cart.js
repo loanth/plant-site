@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cart.css';
-import { Link } from 'react-router-dom';
+
 
 const Cart = ({ cart, removeFromCart }) => {
   // Calcul du total du panier
